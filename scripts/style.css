@@ -1,0 +1,123 @@
+/* Existing Styles */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Gallery Image Styles */
+.gallery-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Popup Styles */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close:hover {
+    color: #bbb;
+}
+
+/* New Styles */
+
+/* Profile Image Styles */
+.profile-img {
+    width: 25vw; /* Responsive width based on viewport width */
+    max-width: 150px; /* Maximum width for larger screens */
+    height: 150px; /* Fixed height to ensure circular shape */
+    object-fit: cover;
+    border: 5px solid #fff; /* Optional border for better appearance */
+    border-radius: 50%; /* Make the image circular */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto 20px; /* Center and add space below the image */
+}
+
+/* Text Tile Styles */
+.text-tile {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* Rounded corners for the text tile */
+    display: inline-block;
+    max-width: 600px; /* Maximum width of the text tile */
+    text-align: center;
+    margin: 20px auto; /* Center horizontally and add margin */
+    padding: 20px; /* Add padding inside the text tile */
+    border: 1px solid #ddd; /* Optional border for better definition */
+}
+
+/* Media Queries for Responsive Image */
+@media (max-width: 768px) {
+    .profile-img {
+        width: 50vw; /* Adjust size for medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-img {
+        width: 75vw; /* Adjust size for small screens */
+    }
+}
+
+/* Contact Me Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Button color */
+    border: none; /* Remove border */
+    display: inline-block; /* Ensure it behaves as a block-level element */
+    font-size: 16px; /* Font size for text */
+    text-align: center; /* Center text alignment */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 20px; /* Space above the button */
+}
+
+/* Button Hover State */
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
