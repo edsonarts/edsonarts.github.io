@@ -13,7 +13,7 @@ const images = [
     'images/image12.jpeg',
     'images/image13.jpeg',
     'images/image14.jpeg',
-    'images/image15.jpeg'
+    'images/image15.jpeg',
     'images/image16.jpeg',
     'images/image17.jpeg',
     'images/image18.jpeg',
@@ -23,7 +23,7 @@ const images = [
     'images/image22.jpeg',
     'images/image23.jpeg',
     'images/image24.jpeg',
-    'images/image25.jpeg'
+    'images/image25.jpeg',
     'images/image26.jpeg'
     // Add more image paths as needed
 ];
