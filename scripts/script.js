@@ -24,7 +24,7 @@ const images = [
     'images/image23.jpeg',
     'images/image24.jpeg',
     'images/image25.jpeg'
-    'images/image27.jpeg'
+    'images/image26.jpeg'
     // Add more image paths as needed
 ];
 
