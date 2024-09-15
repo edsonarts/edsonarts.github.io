@@ -29,7 +29,7 @@ const images = [
 ];
 
 let currentPage = 1;
-const imagesPerPage = 12;
+const imagesPerPage = 26;
 
 function renderGallery() {
     const gallery = document.getElementById('gallery');
